@@ -20,7 +20,7 @@ import { BitError } from '@teambit/bit-error';
 import objectHash from 'object-hash';
 import { uniq } from 'lodash';
 import { writeFileSync, existsSync, mkdirSync } from 'fs-extra';
-import { join } from 'path';
+import { join, relative } from 'path';
 import { PkgAspect, PkgMain } from '@teambit/pkg';
 import { AspectLoaderAspect, getAspectDir, getAspectDirFromBvm } from '@teambit/aspect-loader';
 import type { AspectDefinition, AspectLoaderMain } from '@teambit/aspect-loader';
@@ -602,8 +602,7 @@ export class PreviewMain {
 
     const previewRuntime = await this.writePreviewRuntime(context);
     const linkFiles = await this.updateLinkFiles(context.components, context);
-
-    return [...linkFiles, previewRuntime];
+    return [...linkFiles, previewRuntime].map((f) => `./${relative(process.cwd(), f)}`);
   }
 
   private updateLinkFiles(components: Component[] = [], context: ExecutionContext) {
