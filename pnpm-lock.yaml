@@ -37149,7 +37149,7 @@ packages:
     dev: false
 
   /@pnpm/network.agent@0.0.3:
-    resolution: {integrity: sha1-g28zSZMRCjzekv8O3yavci0Lt4c=, tarball: https://node-registry.bit.cloud/@pnpm/network.agent/-/pnpm-network.agent-0.0.3.tgz}
+    resolution: {integrity: sha1-g28zSZMRCjzekv8O3yavci0Lt4c=, tarball: https://node-registry.bit.cloud/@pnpm/network.agent/-/@pnpm-network.agent-0.0.3.tgz}
     engines: {node: '>=12.22.0'}
     dependencies:
       '@pnpm/network.proxy-agent': 0.0.3
@@ -41393,7 +41393,7 @@ packages:
     dev: false
 
   /@teambit/evangelist.input.checkbox.label@1.0.10(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha1-ub516a6yD7zFu3GeZXNeH97ULNo=, tarball: https://node-registry.bit.cloud/tarballs/teambit.evangelist/input/checkbox/label@1.0.10.tgz}
+    resolution: {integrity: sha1-ub516a6yD7zFu3GeZXNeH97ULNo=, tarball: https://node-registry.bit.cloud/@teambit/evangelist.input.checkbox.label/-/@teambit-evangelist.input.checkbox.label-1.0.10.tgz}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -67027,6 +67027,7 @@ packages:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
       core-js: 3.13.0
@@ -67044,6 +67045,9 @@ packages:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
       core-js: 3.13.0
@@ -67062,6 +67066,9 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
       '@teambit/design.ui.tooltip': 0.0.361(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       core-js: 3.13.0
       react: 17.0.2
@@ -67081,6 +67088,9 @@ packages:
       '@teambit/base-ui.text.themed-text': registry.npmjs.org/@teambit/base-ui.text.themed-text@1.0.1(react-dom@17.0.2)(react@17.0.2)
       '@teambit/base-ui.theme.accent-color': registry.npmjs.org/@teambit/base-ui.theme.accent-color@1.1.0(react-dom@17.0.2)(react@17.0.2)
       '@teambit/design.ui.tooltip': 0.0.361(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.elements.icon': registry.npmjs.org/@teambit/evangelist.elements.icon@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
@@ -67161,6 +67171,9 @@ packages:
       '@teambit/design.ui.styles.ellipsis': 0.0.357(react-dom@17.0.2)(react@17.0.2)
       '@teambit/design.ui.surfaces.menu.link-item': 1.0.0(@testing-library/react@12.1.5)(@types/react@17.0.8)(react-dom@17.0.2)(react@17.0.2)
       '@teambit/design.ui.time-ago': 0.0.366(@testing-library/react@12.1.5)(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.elements.icon': registry.npmjs.org/@teambit/evangelist.elements.icon@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.surfaces.dropdown': registry.npmjs.org/@teambit/evangelist.surfaces.dropdown@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
@@ -67188,6 +67201,9 @@ packages:
       '@teambit/design.ui.styles.ellipsis': 0.0.357(react-dom@17.0.2)(react@17.0.2)
       '@teambit/design.ui.surfaces.menu.link-item': 1.0.0(@testing-library/react@12.1.5)(@types/react@17.0.8)(react-dom@17.0.2)(react@17.0.2)
       '@teambit/design.ui.time-ago': 0.0.366(@testing-library/react@12.1.5)(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.elements.icon': registry.npmjs.org/@teambit/evangelist.elements.icon@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.surfaces.dropdown': registry.npmjs.org/@teambit/evangelist.surfaces.dropdown@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
@@ -67211,6 +67227,9 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
       '@teambit/design.ui.pill-label': 0.0.356(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.section': registry.npmjs.org/@teambit/documenter.ui.section@4.1.1(react-dom@17.0.2)(react@17.0.2)
+      '@teambit/documenter.ui.separator': registry.npmjs.org/@teambit/documenter.ui.separator@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
       core-js: 3.13.0
@@ -71770,6 +71789,7 @@ packages:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@teambit/evangelist.elements.icon': registry.npmjs.org/@teambit/evangelist.elements.icon@1.0.2(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
@@ -71788,6 +71808,7 @@ packages:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
+      '@teambit/documenter.theme.theme-compositions': registry.npmjs.org/@teambit/documenter.theme.theme-compositions@4.1.1(react-dom@17.0.2)(react@17.0.2)
       '@testing-library/react': 12.1.5(react-dom@17.0.2)(react@17.0.2)
       classnames: 2.2.6
       core-js: 3.13.0

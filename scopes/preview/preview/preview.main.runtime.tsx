@@ -602,7 +602,10 @@ export class PreviewMain {
 
     const previewRuntime = await this.writePreviewRuntime(context);
     const linkFiles = await this.updateLinkFiles(context.components, context);
-    return [...linkFiles, previewRuntime].map((f) => `./${relative(process.cwd(), f)}`);
+    return [
+      ...linkFiles.map((f) => `./${relative(process.cwd(), f)}`),
+      previewRuntime.replace(/^.*?\/?node_modules\//, './node_modules/'),
+    ];
   }
 
   private updateLinkFiles(components: Component[] = [], context: ExecutionContext) {
